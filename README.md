@@ -2,7 +2,7 @@
 Adding OpenAI's text polishing capability to Microsoft Word
 <br /><br />
 
-![Alt Text](assets/images/demo.gif)
+![Alt Text](assets/demo.gif)
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)&nbsp;&nbsp;
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white)&nbsp;&nbsp;
@@ -13,7 +13,8 @@ Improve readability of the selected text in a clear and concise manner with the 
 ### OpenAI costs to consider
 - Signing up for an OpenAI account provides you with **18$** free credits.
 - Average manuscript size: 15,000 words -> 20,480 tokens
-- Associated approximate costs: 0.002$/1k tokens x 20,480 -> **approx. 5 cents**
+- Associated costs: 0.002$/1k tokens x 20,480 -> **approx. 5 cents**
+- You can refine approx. 36 manuscripts 10 times for **FREE**
 
 <br />
 
@@ -21,20 +22,29 @@ Improve readability of the selected text in a clear and concise manner with the 
 ### 2.1 Obtain an OpenAI API Key
 
 Signup for an OpenAI account at <a href="https://platform.openai.com/account/api-keys">platform.openai.com/account/api-keys</a>. Create an API key and copy the key for next steps.
-![Alt Text](assets/images/api_key.png)
+![Alt Text](assets/api_key.png)
 
 <br />
 
-### 2.2 Download Folder for Images
-All images created will be saved to the following default folder in Windows 10/11
-```
-C:\Users\Public\Pictures
-```
+### 2.2 Set environment variable
 
+
+### 2.2 Create the MS-Word macro
+- Open Word and go-to the button View -> Macros -> View Macros. ![Alt Text](assets/view_macro.png)
+- Create new macro named "PolishText".
+
+![Alt Text](assets/create_macro.png)
+
+- This opens up a MS-Vbasic Application Window.
+- Delete the text in the new window and copy-paste code here from <a href="https://github.com/ajagekarakshay/Refiny/blob/main/polish.bas">polish.bas</a> file.
+
+![Alt Text](assets/vbasic2.png)
+
+<span style="color:red">Don't forget to copy your OpenAI API key in the red box above</span>.
 
 <br />
 
-### 2.3 AI Models
+### 2.3 Create a separate Ribbon and Button for easy access.
 
 This application uses the following OpenAI model:
  

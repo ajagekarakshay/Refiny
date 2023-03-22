@@ -1,4 +1,3 @@
-Attribute VB_Name = "ChatGPT_TextPolish"
 Sub PolishText()
 '
 ' created by: Akshay Ajagekar
@@ -21,10 +20,7 @@ If Selection.Type = wdSelectionIP Then
   Dim strJSONdata As String
   Dim strSelect As String
 
-  strAPIKey = "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"
-  
-
-'  Environ("OPENAI_API_KEY")
+  strAPIKey = Environ("OPENAI_API_KEY")
   strURL = "https://api.openai.com/v1/chat/completions"
 
   strSelect = Replace(Selection, ChrW$(13), "")
