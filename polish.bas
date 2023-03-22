@@ -1,3 +1,4 @@
+
 Sub PolishText()
 '
 ' created by: Akshay Ajagekar
@@ -56,10 +57,10 @@ If Selection.Type = wdSelectionIP Then
     End If
     
     
-'    Selection.InsertAfter vbCr
- '   Selection.Collapse Direction:=wdCollapseEnd
-  '  Selection.InsertAfter strResponse
-   ' Selection.InsertAfter vbCr
+    'Selection.InsertAfter vbCr
+    'Selection.Collapse Direction:=wdCollapseEnd
+    'Selection.InsertAfter strResponse
+    'Selection.InsertAfter vbCr
     'Selection.Collapse Direction:=wdCollapseEnd
     
     Dim intStartPos As Integer
@@ -215,3 +216,4 @@ Sub ImageGeneration()
 
 
 End Sub
+
