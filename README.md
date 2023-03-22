@@ -10,6 +10,10 @@ Adding OpenAI's text polishing capability to Microsoft Word
 
 ## 1. About
 Improve readability of the selected text in a clear and concise manner with the click of a button in MS-Word. This is a Word macro written in VBA that communicates with the OpenAI Chat Completion API endpoint and uses the gpt-3.5-turbo which is on-par with the text-davinci-003 model for instruction-following tasks.
+### Features
+- Only text polishing is performed for the selected text, "hallucinating" is virtually non-existent.
+- Faster compared to ChatGPT online.
+- More than 100 times cheaper than ChatGPT Plus.
 ### OpenAI costs to consider
 - Signing up for an OpenAI account provides you with **18$** free credits.
 - Average manuscript size: 15,000 words -> 20,480 tokens
