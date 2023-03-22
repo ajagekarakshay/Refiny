@@ -125,10 +125,9 @@ Sub ImageGeneration()
   Dim objCurlHttp As Object
   Dim strJSONdata As String
 
-  strAPIKey = "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"
-
-'  Environ("OPENAI_API_KEY")
+  strAPIKey = Environ("OPENAI_API_KEY")
   strURL = "https://api.openai.com/v1/images/generations"
+  
   strImageSize = "256x256"
 
   strPrompt = Replace(Selection, ChrW$(13), "")

@@ -28,8 +28,11 @@ Signup for an OpenAI account at <a href="https://platform.openai.com/account/api
 
 ### 2.2 Set environment variable
 
+Create an environment variable named OPENAI_API_KEY and set its value to the API key obtained in Step 2.1.
+![Alt Text](assets/envvar.gif)
 
-### 2.2 Create the MS-Word macro
+
+### 2.3 Create the MS-Word macro
 - Open Word and go-to the button View -> Macros -> View Macros. ![Alt Text](assets/view_macro.png)
 - Create new macro named "PolishText".
 
