@@ -2,30 +2,26 @@
 Adding OpenAI's text polishing capability to Microsoft Word
 <br /><br />
 
+![Alt Text](assets/images/demo.gif)
+
 ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)&nbsp;&nbsp;
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white)&nbsp;&nbsp;
 
-<!-- DESCRIPTION -->
-## 1. Description
 
-With the click of a single button you can access OpenAI's awesome capabilies to generate unique images in Microsoft Word
-<br /><br />
-
-
-
-https://user-images.githubusercontent.com/52817125/218464302-448ec765-6f67-497c-8a3e-5910318a604b.mp4
-
+## 1. About
+Improve readability of the selected text in a clear and concise manner with the click of a button in MS-Word. This is a Word macro written in VBA that communicates with the OpenAI Chat Completion API endpoint and uses the gpt-3.5-turbo which is on-par with the text-davinci-003 model for instruction-following tasks.
+### OpenAI costs to consider
+- Signing up for an OpenAI account provides you with **18$** free credits.
+- Average manuscript size: 15,000 words -> 20,480 tokens
+- Associated approximate costs: 0.002$/1k tokens x 20,480 -> **approx. 5 cents**
 
 <br />
 
-<!-- GETTING STARTED -->
-## 2. Getting Started
-### 2.1 Dependencies
-- Requires an OpenAI API Key (create an account and get API Key at <a href="https://chat.openai.com">https://chat.openai.com</a>)
-- Requires Microsoft Windows 10/11 (<a href="https://www.microsoft.com/en-au/windows">https://www.microsoft.com/en-au/windows</a>)
-- Requires Microsoft Word 365 (<a href="https://www.microsoft.com/en-us">https://www.microsoft.com/en-us</a>)
+## 2. Installation
+### 2.1 Obtain an OpenAI API Key
 
-Please be aware of the [costs](https://openai.com/pricing) associated with using the OpenAI API when utilizing this project.
+Signup for an OpenAI account at <a href="https://platform.openai.com/account/api-keys">platform.openai.com/account/api-keys</a>. Create an API key and copy the key for next steps.
+![Alt Text](assets/images/api_key.png)
 
 <br />
 
